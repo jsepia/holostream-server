@@ -33,9 +33,10 @@ tmi.connect().then(
     kittybot = new Bot(client)
     kittybot.use(currencyPlugin)
     kittybot.use(queuedMessageBroker)
-    kittybot.command('!units', currencyPlugin.queryMyCurrency)
+    kittybot.command('!units', currencyPlugin.commands.queryMyCurrency)
     for(const command in customCommands) {
       const value = customCommands[command]
+      winston.info(`${command} -> ${value}`)
       kittybot.command(command, value)
     }
   },
