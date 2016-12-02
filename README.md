@@ -43,3 +43,5 @@ The server/bot component of my streaming suite.
 * Add a Socket.IO server that the client can plug into
 * Create a client with a reactive overlay
 * Expose the bot's name and other data as Mustache variables that people can use in commands
+* Add reminders: drink water, tidy desk
+* Get alerts set up
