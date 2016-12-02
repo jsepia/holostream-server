@@ -23,7 +23,7 @@ const queuedMessageBroker = require('bot/plugins/queued-message-broker')
 const customCommands = {
   '!about': 'Julio is an amateur artist based in Seattle. He likes to draw tiny stuff and is rather fond of felines.',
   '!social': 'Website: http://juliosepia.com | Instagram: https://instagram.com/draws_with_kitties',
-  '!bot': 'I am kittythebot! Find me on '
+  '!bot': 'I am kittythebot! Find me on https://github.com/jsepia/holostream-server'
 }
 
 let kittybot = null
